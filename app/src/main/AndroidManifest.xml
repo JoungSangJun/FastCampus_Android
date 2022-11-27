@@ -10,7 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FastCampus">
         <activity
+            android:name="._16TabLayoutPagerActivity"
+            android:exported="false" />
+        <activity
             android:name="._18SharedPreferenceActivity"
+            android:exported="false" />
+        <activity
+            android:name="._16_1TableLayoutPagerSimple"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
