@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FastCampus">
         <activity
+            android:name="._02ViewControl"
+            android:exported="false" />
+        <activity
             android:name="._01Lifeycle"
             android:exported="false" />
         <activity
