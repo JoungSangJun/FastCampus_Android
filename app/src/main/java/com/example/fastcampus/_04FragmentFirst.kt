@@ -32,7 +32,6 @@ class _04FragmentFirst : Fragment() {
 
         val data: String? = arguments?.getString("key")
         Log.d("testt", "data is " + data)
-
     }
 
     fun printTestLog() {
