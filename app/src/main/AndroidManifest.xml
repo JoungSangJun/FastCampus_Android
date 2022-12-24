@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FastCampus">
         <activity
+            android:name="._06AsyncActivity"
+            android:exported="false" />
+        <activity
             android:name="._05ThreadActivity"
             android:exported="false" />
         <activity

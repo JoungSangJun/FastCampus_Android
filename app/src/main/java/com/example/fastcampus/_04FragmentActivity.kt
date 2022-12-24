@@ -9,8 +9,9 @@ class _04FragmentActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_04_fragment)
+
         val fragmentManager = supportFragmentManager
-        val fragmentFirst = FragmentFirst()
+        val fragmentFirst = _04FragmentFirst()
 
         // 쓰레드 확인방법
         val a = Thread.currentThread()
@@ -70,17 +71,18 @@ class _04FragmentActivity : AppCompatActivity() {
             transaction.commit()
         }
 
-        (findViewById<TextView>(R.id.access_fragmnet)).setOnClickListener {
+        (findViewById<TextView>(R.id.access_fragment)).setOnClickListener {
             // XML에 있는 fragment를 찾는 방법
-//            val fragmentFirst =
-//                supportFragmentManager.findFragmentById(R.id.fragment_first) as FragmentFirst
-//            fragmentFirst.printTestLog()
+            // val fragmentFirst =
+            // supportFragmentManager.findFragmentById(R.id.fragment_first) as _04FragmentFirst
+            // fragmentFirst.printTestLog()
             // XML에 없는 fragment를 찾는 방법
             val fragmentFirst =
-                supportFragmentManager.findFragmentByTag("fragment_first_tag") as FragmentFirst
+                supportFragmentManager.findFragmentByTag("fragment_first_tag") as _04FragmentFirst
             fragmentFirst.printTestLog()
         }
     }
+
     fun printTestLog() {
         Log.d("testt", "print test log")
     }

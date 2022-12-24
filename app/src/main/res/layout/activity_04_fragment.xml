@@ -4,32 +4,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="._04FragmentActivity">
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragment_first"
-        android:name="com.example.fastcampus.FragmentFirst"
+        android:name="com.example.fastcampus._04FragmentFirst"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        tools:layout="@layout/first_fragment" />
+        tools:layout="@layout/activity_04_first_fragment">
+    </androidx.fragment.app.FragmentContainerView>
 
     <TextView
         android:id="@+id/add"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:background="@drawable/yellow_background"
+        android:background="@color/teal_200"
         android:gravity="center"
-        android:text="add"
-        android:textSize="40dp" />
+        android:text="attach"
+        android:textSize="30dp" />
 
     <TextView
         android:id="@+id/remove"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:background="@drawable/yellow_background"
+        android:background="@color/teal_200"
         android:gravity="center"
         android:text="remove"
-        android:textSize="40dp" />
+        android:textSize="30dp" />
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:id="@+id/root"
@@ -37,13 +39,12 @@
         android:layout_height="wrap_content" />
 
     <TextView
-        android:id="@+id/access_fragmnet"
+        android:id="@+id/access_fragment"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:background="@color/black"
+        android:background="@color/teal_200"
         android:gravity="center"
-        android:text="access fragment"
-        android:textColor="@color/white"
-        android:textSize="50dp" />
+        android:text="access_fragment"
+        android:textSize="30dp" />
 
 </androidx.appcompat.widget.LinearLayoutCompat>
