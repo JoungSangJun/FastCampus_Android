@@ -1,7 +1,11 @@
 package com.example.fastcampus
 
+import android.os.AsyncTask
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
+import android.widget.ProgressBar
+import android.widget.TextView
 
 class _06AsyncActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
