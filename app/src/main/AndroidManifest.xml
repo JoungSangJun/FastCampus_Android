@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FastCampus">
         <activity
+            android:name="._08ListViewActivity"
+            android:exported="false" />
+        <activity
             android:name="._07AddViewActivity"
             android:exported="false" />
         <activity
@@ -22,7 +25,7 @@
             android:name="._05ThreadActivity"
             android:exported="false" />
         <activity
-            android:name="._08ListViewActivity"
+            android:name="._09RecyclerView"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
