@@ -7,10 +7,10 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.TextView
 
-class _18SharedPreferenceActivity : AppCompatActivity() {
+class _11SharedPreferenceActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_shared_preference)
+        setContentView(R.layout.activity_11shared_preference)
 
         // SharedPreferences 사용법
         findViewById<TextView>(R.id.create).setOnClickListener {

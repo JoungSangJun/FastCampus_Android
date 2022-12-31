@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FastCampus">
         <activity
+            android:name="._12RoomActivity"
+            android:exported="false" />
+        <activity
             android:name="._08ListViewActivity"
             android:exported="false" />
         <activity
@@ -49,7 +52,7 @@
             android:name="._16TabLayoutPagerActivity"
             android:exported="false" />
         <activity
-            android:name="._18SharedPreferenceActivity"
+            android:name="._11SharedPreferenceActivity"
             android:exported="false" />
         <activity
             android:name="._03Intent_One"

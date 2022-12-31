@@ -12,7 +12,7 @@ import com.google.android.material.tabs.TabLayout
 class _16_1TableLayoutPagerSimple : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_161_table_layout_pager_simple)
+        setContentView(R.layout.activity_10_1_table_layout_pager_simple)
 
         val viewPager = findViewById<ViewPager>(R.id.viewPager)
         val tabLayout = findViewById<TabLayout>(R.id.tabLayout)
@@ -67,7 +67,7 @@ class ViewPagerAdapter(
             }
             1 -> {
                 val view =
-                    layoutInflater.inflate(R.layout.activity_shared_preference, container, false)
+                    layoutInflater.inflate(R.layout.activity_11shared_preference, container, false)
                 container.addView(view)
                 return view
             }

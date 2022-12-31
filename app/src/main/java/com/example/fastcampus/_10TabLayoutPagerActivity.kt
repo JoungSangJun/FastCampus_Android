@@ -10,7 +10,7 @@ import com.google.android.material.tabs.TabLayout
 class _16TabLayoutPagerActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_16_tab_layout_pager)
+        setContentView(R.layout.activity_10_tab_layout_pager)
 
         val tabLayout = findViewById<TabLayout>(R.id.tabLayout)
         val viewPager2 = findViewById<ViewPager2>(R.id.viewPager2)
