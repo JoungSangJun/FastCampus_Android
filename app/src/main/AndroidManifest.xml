@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FastCampus">
         <activity
+            android:name="._13NetworkActivity"
+            android:exported="false" />
+        <activity
             android:name="._12RoomActivity"
             android:exported="false" />
         <activity
